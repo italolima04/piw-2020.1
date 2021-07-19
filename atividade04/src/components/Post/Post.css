@@ -1,0 +1,48 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  background-color: bisque;
+  width: 480px;
+  height: 220px;
+  border-radius: 9px;
+}
+
+.card .card-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-right: 230px;
+  position: absolute;
+  margin-bottom: 150px;
+}
+
+.card .card-text {
+  font-size: 18px;
+}
+
+.card-subtitle {
+  font-size: 14px;
+}
+
+.card .card-text {
+  margin-bottom: 50px;
+}
+
+
+.card-likes {
+  display: flex;
+  margin-bottom: -100px;
+}
+
+.card-likes .button-card{
+  margin-left: 350px;
+}
+
+
+.card-body {}
+
+.button-card img {
+  width: 20px;
+}
