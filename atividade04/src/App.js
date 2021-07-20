@@ -1,4 +1,3 @@
-import './App.css';
 
 import FeedPage from '../src/pages/FeedPage/FeedPage';
 
