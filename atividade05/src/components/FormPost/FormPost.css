@@ -1,0 +1,21 @@
+.comment-page {
+  display: flex;
+  margin-top: 60px;
+  align-self: center;
+}
+
+.card-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 700px;
+  height: 400px;
+  background-color: rgb(21, 32, 43);
+  border-radius: 10px;
+  align-self: center;
+}
+
+.form-textarea {
+  border-radius: 4px;
+}
