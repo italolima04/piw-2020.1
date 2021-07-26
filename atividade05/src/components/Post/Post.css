@@ -75,3 +75,28 @@
   justify-content: space-around;
 }
 
+.content-comment-submit {
+  display: flex;
+  flex-direction: column;
+}
+
+.submit-link {
+  width: 70%;
+  height: 20px;
+  margin-top: 6px;
+  align-self: flex-end;
+  border-radius: 4px;
+  font-weight: 800;
+  text-decoration: none;
+  text-align: center;
+  align-items: center;
+  color: rgb(78, 116, 155);
+}
+
+.submit-link:hover {
+  background-color: rgb(78, 116, 155);
+  color: aliceblue;
+  text-shadow: 0px 0px 10px aliceblue;
+}
+
+

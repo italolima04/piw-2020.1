@@ -1,8 +1,9 @@
 import './Post.css';
 
-import Comment from '../Comment/Comment';
-import ButtonForm from '../ButtonForm/ButtonForm';
+import { Link } from 'react-router-dom'
 
+import Comment from '../Comment/Comment';
+import InputComment from '../InputComment/InputComment';
 
 import ThumbUp from '../../assets/thumb-up.png'
 
@@ -26,10 +27,14 @@ export default function Post({ user, content, numberOfLikes }) {
       <div className="content-comment">
         <Comment>
         </Comment>
-        <ButtonForm linkButton="/publish" className="button-comment" textButton="Comment">
-        </ButtonForm>
+        <div className="content-comment-submit">
+          <InputComment placeholder="Type a comment here">
+          </InputComment>
+          <Link to="/publish" className="submit-link">
+            Add Comment
+          </Link>
+        </div>
       </div>
-
     </>
   )
 }

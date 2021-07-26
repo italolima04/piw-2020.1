@@ -1,0 +1,9 @@
+.input-comment {
+  border-radius: 6px;
+  height: 27px;
+  font-weight: 600;
+}
+
+.input-comment::placeholder {
+  padding: 4px;
+}
