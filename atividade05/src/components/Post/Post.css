@@ -30,19 +30,29 @@
   margin-bottom: 50px;
 }
 
-
 .card-likes {
   display: flex;
-  margin-bottom: -100px;
+  margin-bottom: -90px;
 }
 
 .card-likes .button-card{
   display: flex;
-  margin-left: 260px;
+  margin-left: 305px;
 }
 
-.card-likes button{
-  margin-right: 5px;
+
+.card-likes .reply-button{
+  margin-left: 10px;
+  background-color: aliceblue;
+  border-radius: 5px;
+  width: 70px;
+}
+
+.card-likes .reply-button a{
+  text-decoration: none;
+  color: black;
+  font-size: 100%;
+  font-weight: 600;
 }
 
 .button-card img {
@@ -54,7 +64,14 @@
 }
 
 .line-vertical {
-  height: 30px;
-  margin-right: 450px;
+  height: 13px;
+  margin-right: 400px;
   border-right: 2px solid #000;
 }
+
+.content-comment {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+

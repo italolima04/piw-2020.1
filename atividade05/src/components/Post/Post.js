@@ -1,8 +1,8 @@
 import './Post.css';
 
-import { ButtonNav } from '../ButtonNav/ButtonNav';
-
 import Comment from '../Comment/Comment';
+import ButtonForm from '../ButtonForm/ButtonForm';
+
 
 import ThumbUp from '../../assets/thumb-up.png'
 
@@ -16,15 +16,20 @@ export default function Post({ user, content, numberOfLikes }) {
         <div className="card-likes">
           <h6 className="card-subtitle">{numberOfLikes} Likes</h6>
           <div className="button-card">
-            <button >
+            <button className="like-button">
               <img src={ThumbUp} alt="Like" />
             </button>
-            <ButtonNav textButton="Reply"></ButtonNav>
           </div>
         </div>
       </div>
       <div className="line-vertical"></div>
-      <Comment></Comment>
+      <div className="content-comment">
+        <Comment>
+        </Comment>
+        <ButtonForm linkButton="/publish" className="button-comment" textButton="Comment">
+        </ButtonForm>
+      </div>
+
     </>
   )
 }

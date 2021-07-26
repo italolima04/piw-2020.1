@@ -1,14 +1,14 @@
 import './ButtonNav.css';
 
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 export function ButtonNav(props) {
   return (
     <div className="button-nav">
       <button>
-        <Link to={props.linkToButton}>
+        <NavLink exact to={props.linkToButton}>
           {props.textButton}
-        </Link>
+        </NavLink>
       </button>
     </div>
   )

@@ -19,3 +19,8 @@
 .form-textarea {
   border-radius: 4px;
 }
+
+.form-button {
+  margin-top: 10px;
+  margin-left: 300px;
+}
