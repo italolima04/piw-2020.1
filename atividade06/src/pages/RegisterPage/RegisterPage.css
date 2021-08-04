@@ -1,0 +1,65 @@
+.register-page{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 637px;
+  background-color: #87CEFA;
+}
+
+.title {
+  margin-bottom: 30px;
+  font-size: 30px;
+  text-align: center;
+  font-style: oblique;
+}
+
+.register-page input{
+  border-radius: 9px;
+  border-color: transparent;
+  height: 33px;
+}
+
+
+.grid {
+	display: grid;  
+}
+
+.grid-template-columns {
+	grid-template-columns: 200px 200px;
+}
+
+.item{
+  margin-bottom: 40px;
+}
+
+.button-submit{
+  align-self: center;
+  background-color: blue;
+  height: 30px;
+  border-radius: 6px;
+  border-color: transparent;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  opacity: 0.7;
+  width: 32%;
+}
+
+.account {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  width: 30%;
+}
+
+.text-account {
+  margin-right: 40px;
+}
+.text-account p:nth-child(2) {
+  text-align: center;
+  margin-top: 3px;
+}
+

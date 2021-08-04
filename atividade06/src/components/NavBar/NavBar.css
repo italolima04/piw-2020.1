@@ -1,0 +1,45 @@
+.header-nav {
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  background-color: whitesmoke;
+  width: 700px;
+}
+
+.header-nav .logo-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-nav .logo-title .title {
+  margin-left: 110px;
+  font-size: 23px;
+  font-weight: 700;
+  font-style: italic;
+  text-decoration: none;
+  color: rgb(21, 32, 43);
+}
+
+.header-nav .nav {
+  display: flex;
+  margin-left: auto;
+}
+
+.header-nav .button-nav {
+  margin-right: 15px;
+  border-radius: 7px;
+}
+
+.button-nav .active{
+  opacity: 0.4 !important ;
+}
+
+.header-nav .loged-user {
+  font-weight: 600;
+  font-size: 18px;
+  color: dodgerblue;
+}

@@ -1,0 +1,14 @@
+.button-form {
+  border-radius: 7px;
+  width: 110%;
+  height: 26px;
+  background-color: aliceblue;
+}
+
+.button-form a {
+  text-decoration: none;
+  color: black;
+  text-shadow: 10px;
+  font-size: 16px;
+  font-weight: 600;
+}

@@ -1,0 +1,23 @@
+.card-comment {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: rgb(78, 116, 155);
+  width: 250px;
+  height: 60px;
+  border-radius: 9px;
+}
+
+.content {
+  margin-left: 10px;
+}
+
+.content {
+  color: #fff;
+  font-size: 15px;
+}
+
+.content span {
+  font-weight: bold;
+}

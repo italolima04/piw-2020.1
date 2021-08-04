@@ -1,0 +1,102 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  background-color: rgb(108, 155, 202);
+  width: 480px;
+  height: 215px;
+  border-radius: 9px;
+}
+
+.card .card-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-right: 230px;
+  position: absolute;
+  margin-bottom: 150px;
+}
+
+.card .card-text {
+  font-size: 18px;
+}
+
+.card-subtitle {
+  font-size: 14px;
+}
+
+.card .card-text {
+  margin-bottom: 50px;
+}
+
+.card-likes {
+  display: flex;
+  margin-bottom: -90px;
+}
+
+.card-likes .button-card{
+  display: flex;
+  margin-left: 305px;
+}
+
+
+.card-likes .reply-button{
+  margin-left: 10px;
+  background-color: aliceblue;
+  border-radius: 5px;
+  width: 70px;
+}
+
+.card-likes .reply-button a{
+  text-decoration: none;
+  color: black;
+  font-size: 100%;
+  font-weight: 600;
+}
+
+.button-card img {
+  width: 20px;
+}
+
+.space-line {
+  background-color: bisque;
+}
+
+.line-vertical {
+  height: 13px;
+  margin-right: 400px;
+  border-right: 2px solid #000;
+}
+
+.content-comment {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.content-comment-submit {
+  display: flex;
+  flex-direction: column;
+}
+
+.submit-link {
+  width: 70%;
+  height: 20px;
+  margin-top: 6px;
+  align-self: flex-end;
+  border-radius: 4px;
+  font-weight: 800;
+  text-decoration: none;
+  text-align: center;
+  align-items: center;
+  color: rgb(78, 116, 155);
+}
+
+.submit-link:hover {
+  background-color: rgb(78, 116, 155);
+  color: aliceblue;
+  text-shadow: 0px 0px 10px aliceblue;
+}
+
+
