@@ -4,14 +4,15 @@
   justify-content: center;
   align-items: center;
   height: 637px;
-  background-color: #87CEFA;
+  background-color: #708090;
 }
 
-.title {
-  margin-bottom: 30px;
+.title-login {
+  margin-bottom: 20px;
   font-size: 30px;
   text-align: center;
   font-style: oblique;
+  color: aliceblue;
 }
 
 .login-page input{
@@ -19,11 +20,16 @@
   border-color: transparent;
   height: 39px;
   margin-bottom: 13px;
+  background-color: aliceblue;
   width: 300px;
+  font-weight: bold;
 }
 
 .login-page label{
   margin-bottom: 3px;
+  color: #000;
+  font-weight: bold;
+  margin-left: 5px;
 }
 
 .form-login {
@@ -34,10 +40,9 @@
   margin-bottom: 20px;
 }
 
-.button-submit{
-  align-self: center;
-  background-color: blue;
-  height: 30px;
+.button-submit-login {
+  background-color: #00008B;
+  height: 33px;
   border-radius: 6px;
   border-color: transparent;
   text-align: center;
@@ -45,22 +50,40 @@
   font-size: 16px;
   font-weight: 700;
   opacity: 0.7;
-  width: 32%;
+  width: 100%;
 }
 
-.account {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-direction: row;
-  width: 30%;
+.button-submit-login:hover {
+  align-self: center;
+  background-color: #fff;
+  height: 33px;
+  border-radius: 6px;
+  border-color: transparent;
+  text-align: center;
+  color: #00008B;
+  font-size: 16px;
+  font-weight: 700;
+  opacity: 0.7;
+  width: 100%;
 }
 
-.text-account {
-  margin-right: 40px;
+.text-account-login  {
+  margin-top: 13px;
 }
 
-.text-account p:nth-child(2) {
+.text-account-login p {
+  color: #000;
+  font-weight: bold;
+}
+
+.text-account-login a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+.text-account-login p:nth-child(2) {
   text-align: center;
   margin-top: 3px;
 }

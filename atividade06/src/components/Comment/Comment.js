@@ -1,14 +1,14 @@
 import './Comment.css';
 
-export default function Comment() {
+export default function Comment({ user_id, text }) {
   return (
     <>
       <div className="card-comment">
         <div className="content">
           <span>
-            @Ítalo Lima
+            @{user_id}
           </span>
-          <p>Comentário sobre futebol</p>
+          <p>{text}</p>
         </div>
       </div>
     </>

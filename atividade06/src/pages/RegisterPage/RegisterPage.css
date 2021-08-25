@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   height: 637px;
-  background-color: #87CEFA;
+  background-color: #708090;
 }
 
 .title {
@@ -12,12 +12,22 @@
   font-size: 30px;
   text-align: center;
   font-style: oblique;
+  color: aliceblue;
+  margin-right: 12px;
 }
 
 .register-page input{
   border-radius: 9px;
   border-color: transparent;
   height: 33px;
+  background-color: aliceblue;
+  font-weight: bold;
+}
+
+.register-page label{
+  color: #000;
+  font-weight: bold;
+  margin-left: 5px;
 }
 
 
@@ -35,31 +45,52 @@
 
 .button-submit{
   align-self: center;
-  background-color: blue;
-  height: 30px;
+  background-color: #00008B;
+  height: 33px;
   border-radius: 6px;
   border-color: transparent;
   text-align: center;
   color: #fff;
   font-size: 16px;
   font-weight: 700;
-  opacity: 0.7;
-  width: 32%;
+  opacity: 0.9;
+  width: 95%;
+  margin-right: 10px;
 }
 
-.account {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-direction: row;
-  width: 30%;
+
+.button-submit:hover{
+  align-self: center;
+  background-color: #fff;
+  height: 33px;
+  border-radius: 6px;
+  border-color: transparent;
+  text-align: center;
+  color: #00008B;
+  font-size: 16px;
+  font-weight: 700;
+  opacity: 0.9;
+  width: 95%;
+  margin-right: 10px;
 }
 
 .text-account {
   margin-right: 40px;
+  margin-top: 10px;
 }
+
+.text-account p {
+  color: #000;
+  font-weight: bold;
+}
+
+.text-account a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
 .text-account p:nth-child(2) {
   text-align: center;
-  margin-top: 3px;
 }
 

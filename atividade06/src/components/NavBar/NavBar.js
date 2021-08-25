@@ -5,20 +5,22 @@ import { Link } from 'react-router-dom';
 
 import { ButtonNav } from '../ButtonNav/ButtonNav';
 
+
 export default function NavBar(props) {
   return (
     <header className="header-nav">
       <div className="logo-title">
+        <ButtonNav linkToButton="/publish" className="button-nav" textButton="Register"> </ButtonNav>
+        <ButtonNav linkToButton="/publish" className="button-nav" textButton="Login"> </ButtonNav>
         <Link to="/">
           <img className="logo" src={Logo} alt="Logo" />
         </Link>
-        <Link to="/" className="title"> Social Network </Link>
+        <nav className="nav">
+          <ButtonNav linkToButton="/" className="button-nav" id="button-press" textButton="Timeline"> </ButtonNav>
+          <ButtonNav linkToButton="/publish" className="button-nav" textButton="Publish"> </ButtonNav>
+          <span className="loged-user">{props.user}</span>
+        </nav>
       </div>
-      <nav className="nav">
-        <ButtonNav linkToButton="/" className="button-nav" id="button-press" textButton="Timeline"> </ButtonNav>
-        <ButtonNav linkToButton="/publish" className="button-nav" textButton="Publish"> </ButtonNav>
-        <span className="loged-user">{props.user}</span>
-      </nav>
     </header>
   )
 }

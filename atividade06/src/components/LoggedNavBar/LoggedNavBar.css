@@ -38,3 +38,21 @@
   font-size: 18px;
   color: dodgerblue;
 }
+
+.button-logout {
+  border-radius: 7px;
+  width: 100px;
+  margin-right: 20px;
+  height: 28px;
+  background-color:crimson;
+  color: aliceblue;
+  text-shadow: 10px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.header-nav .loged-user {
+  font-weight: 600;
+  font-size: 18px;
+  color: dodgerblue;
+}

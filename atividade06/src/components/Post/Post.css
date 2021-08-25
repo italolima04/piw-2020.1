@@ -8,12 +8,13 @@
   width: 480px;
   height: 215px;
   border-radius: 9px;
+  margin-left: 5px;
 }
 
 .card .card-title {
   font-size: 20px;
   font-weight: 600;
-  margin-right: 230px;
+  margin-right: 150px;
   position: absolute;
   margin-bottom: 150px;
 }
@@ -71,18 +72,21 @@
 
 .content-comment {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: space-around;
+  margin-left: 300px;
+  margin-top: -60px;
 }
 
 .content-comment-submit {
   display: flex;
   flex-direction: column;
+  margin-left: 5px;
 }
 
 .submit-link {
-  width: 70%;
-  height: 20px;
+  width: 40%;
+  height: 30px;
   margin-top: 6px;
   align-self: flex-end;
   border-radius: 4px;
